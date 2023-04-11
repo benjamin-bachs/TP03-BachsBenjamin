@@ -1,0 +1,57 @@
+*{
+    background-color: black;
+}
+#saltar{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#saltar a{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header figure{
+    height: 90%;
+    margin: 0;
+}
+header figure img{
+    height: 100%;
+}
+header h1{
+    color: #f3db7b;
+}
+nav{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav a{
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    border: 2px;
+    border-color: #f3db7b;
+    border-style: solid;
+    color: #f3db7b;
+    margin-left: 0.5rem;
+}
+nav a:hover{
+    background-color: rgb(60, 60, 60);
+}
+nav a:focus{
+    color: white;
+    border-color: white;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
