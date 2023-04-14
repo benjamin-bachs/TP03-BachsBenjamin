@@ -1,4 +1,4 @@
-*{
+body{
     background-color: black;
 }
 #saltar{
@@ -29,7 +29,7 @@ header h1{
     color: #f3db7b;
 }
 nav{
-    height: 5vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -53,5 +53,30 @@ nav a:focus{
 main{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     color: white;
+}
+main article{
+    width: 40%;
+    padding: 3rem 3rem;
+}
+#articulo1{
+    width: 40%;
+    border-radius: 0 25%;
+    background-color: white;
+    border: 2px solid #f3db7b;
+    color: black;
+}
+#articulo2{
+    width: 40%;
+    border-radius: 25% 0;
+    border: 2px solid #f3db7b;
+}
+footer{
+    height: 10vh;
+    color: #f3db7b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
