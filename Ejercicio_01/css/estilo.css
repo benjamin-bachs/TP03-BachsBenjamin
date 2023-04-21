@@ -51,26 +51,26 @@ nav a:focus{
     border-color: white;
 }
 main{
+    color: white;
     display: flex;
+}
+.flexwrap{
     flex-direction: row;
     justify-content: space-evenly;
-    color: white;
+    flex-wrap: wrap;
 }
-main article{
+#mainindex article{
     width: 40%;
+    border: 2px solid #f3db7b;
     padding: 3rem 3rem;
 }
 #articulo1{
-    width: 40%;
     border-radius: 0 25%;
     background-color: white;
-    border: 2px solid #f3db7b;
     color: black;
 }
 #articulo2{
-    width: 40%;
     border-radius: 25% 0;
-    border: 2px solid #f3db7b;
 }
 footer{
     height: 10vh;
@@ -79,4 +79,59 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+footer a{
+    color: #f3db7b;
+}
+#mainreparto article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: white;
+    color: black;
+    margin: 1rem 0;
+    border: 3px solid #f3db7b;
+    border-radius: 10%;
+}
+#mainreparto article figure{
+    text-align: center;
+    width: 40%;
+}
+#mainreparto article figure img{
+    width: 100%;
+    border-radius: 50%;
+}
+#mainreparto article h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 2rem;
+    background-color: #f3db7b;
+    font-size: medium;
+}
+.contenidoconaside{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+    
+}
+tr:hover{
+    background-color: #f3db7b;
+}
+th{
+    border: 1px solid white;
+}
+td{
+    border: 1px solid white;
 }
